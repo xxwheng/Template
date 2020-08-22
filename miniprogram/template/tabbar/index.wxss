@@ -1,0 +1,34 @@
+/* template/tabbar/index.wxss */
+
+.icon{
+  width: 48rpx;
+  height: 44rpx;
+  vertical-align: bottom;
+  padding-bottom: 5rpx;
+}
+.tabBar{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  padding: 15rpx 0 5rpx 0;
+  background:#fff;
+  font-size:32rpx;
+  color:#353535;
+  z-index: 100;
+  box-shadow: 0 -5rpx 60rpx #dcdcdc;
+  display: flex;
+}
+
+.tabBar-item{
+  /* float:left;
+  width:33.33%; */
+  flex: 1;
+  font-size: 26rpx;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*当前字体颜色*/
+.tabBartext{
+  color:#ff0000;
+}

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+
+<!--底部导航-->
+<view>
+  <import src="/template/tabbar/index.wxml"/>
+  <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+</view>

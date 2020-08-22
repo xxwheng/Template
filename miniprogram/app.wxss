@@ -1,0 +1,19 @@
+/**app.wxss**/
+page {
+  height: 100%;
+  display: flex;
+  background-color: #f8f8f8;
+}
+
+.hide {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+/* 字体大小 */
+.f28{font-size: 28rpx;}
+.f30{font-size: 30rpx;}
+.f32{font-size: 32rpx;}
